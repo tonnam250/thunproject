@@ -1,0 +1,89 @@
+/* Basic custom styling for Projectธัน */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar-brand h1 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+
+.carousel-header .carousel-caption h1 {
+    font-size: 3rem;
+}
+
+.section-title {
+    color: #13357B;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.service-content-inner {
+    transition: background 0.3s ease;
+}
+
+.service-content-inner:hover {
+    background: #f0f8ff;
+}
+
+.destination-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.destination-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    transition: background 0.3s ease;
+}
+
+.destination-img:hover .destination-overlay {
+    background: rgba(19,53,123,0.8);
+}
+
+.national-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.national-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.national-plus-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.gallery-item {
+    position: relative;
+}
+
+.gallery-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.gallery-plus-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
